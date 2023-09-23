@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2023-09-23T12:46:40.011Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="dyj71-1oEtOmdxNLMhPb" version="21.7.4" type="device">
+  <diagram id="07fea595-8f29-1299-0266-81d95cde20df" name="Page-1">
+    <mxGraphModel dx="4387" dy="1139" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JTahXnamlg6C21jzx0TI-747" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=3;fontSize=60;align=left;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2316" y="15" width="1560" height="1201" as="geometry" />
+        </mxCell>
+        <mxCell id="698" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#e8edf0;fontSize=60;fontColor=#2F5B7C;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-2257" y="162" width="1450" height="1005" as="geometry" />
+        </mxCell>
+        <mxCell id="708" value="Formula 1 Project Requirements Overview" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=60;fontColor=#2F5B7C;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="-2084" y="64" width="1148" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="JTahXnamlg6C21jzx0TI-730" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Functional Requirements&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=60;fontColor=#2F5B7C;" vertex="1" parent="1">
+          <mxGeometry x="-2010" y="151" width="420" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JTahXnamlg6C21jzx0TI-732" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1790" y="220" width="420" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="JTahXnamlg6C21jzx0TI-725" value="&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Analysis Requirements&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Dominant Drivers in the last decade and all-time in Formula 1. Ranked in order of dominance.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Dominant Teams&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;in the last decade and all-time in Formula 1. Ranked in order of dominance&lt;/font&gt;.&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Visualise the outputs for the periods in which the drivers/teams were dominant as well as their performance in that time frame.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Create Databricks dashboards that can be shared with others in Azure.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#e8edf0;strokeWidth=5;fillColor=#ffffff;fontSize=12;fontColor=#2F5B7C;align=left;verticalAlign=top;spacing=30;" vertex="1" parent="JTahXnamlg6C21jzx0TI-732">
+          <mxGeometry width="420" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="JTahXnamlg6C21jzx0TI-726" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#305b7c;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.datasync_discovery;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="JTahXnamlg6C21jzx0TI-732">
+          <mxGeometry x="350" y="20" width="50" height="49.36" as="geometry" />
+        </mxCell>
+        <mxCell id="JTahXnamlg6C21jzx0TI-733" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-2210" y="220" width="420" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="700" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Data Ingestion Requirements&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;&quot;&gt;&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Ingest all files into the data lake spanning various formats.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Ingested data must have the correct schema applied (column names, data types etc.).&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Ingested data must have audit columns such as ingested date and source.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Ingested data must be stored in columnar format (i.e., parquet files).&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;The data ingested should be available for all kinds of workloads such as machine learning, further transformation for reporting and analytical workloads via SQL.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Ingestion logic must be able to handle incremental load. When we receive data for just one race it should append the data to the data lake rather than replacing all the data in the lake.&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#e8edf0;strokeWidth=5;fillColor=#ffffff;fontSize=12;fontColor=#2F5B7C;align=left;verticalAlign=top;spacing=30;" parent="JTahXnamlg6C21jzx0TI-733" vertex="1">
+          <mxGeometry width="420" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="719" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#2F5B7C;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;shape=mxgraph.office.concepts.link;labelBackgroundColor=none;fontSize=10;fontColor=#000000;align=left;" parent="JTahXnamlg6C21jzx0TI-733" vertex="1">
+          <mxGeometry x="339" y="21" width="61" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="JTahXnamlg6C21jzx0TI-734" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-2210" y="670" width="420" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="JTahXnamlg6C21jzx0TI-722" value="&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Data Transformation Requirements&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Join the key information required for reporting to create a new table. (data from races and results combined into a single dataset or table to produce reports).&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Join the key information required for analysis to create a new table.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Transformed tables must have audit columns.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Must be available for all workloads (ML, BI reporting, SQL analytics).&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Transformed data must be stored in columnar format (i.e., parquet files).&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Transformation logic must be able to handle incremental load. Similar to the ingestion requirement.&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#e8edf0;strokeWidth=5;fillColor=#ffffff;fontSize=12;fontColor=#2F5B7C;align=left;verticalAlign=top;spacing=30;" vertex="1" parent="JTahXnamlg6C21jzx0TI-734">
+          <mxGeometry width="420" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="JTahXnamlg6C21jzx0TI-728" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#305b7c;shape=mxgraph.mscae.oms.track_changes;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="JTahXnamlg6C21jzx0TI-734">
+          <mxGeometry x="358" y="20" width="42" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JTahXnamlg6C21jzx0TI-736" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1790" y="670" width="420" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="JTahXnamlg6C21jzx0TI-723" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Reporting Requirements&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;&quot;&gt;&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Driver Standings&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Constructor Standings&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;For the current race year as well as every race year since 1950. The reports will have a defined list of data items.&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#e8edf0;strokeWidth=5;fillColor=#ffffff;fontSize=12;fontColor=#2F5B7C;align=left;verticalAlign=top;spacing=30;" vertex="1" parent="JTahXnamlg6C21jzx0TI-736">
+          <mxGeometry width="420" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="JTahXnamlg6C21jzx0TI-724" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#315c7d;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.backup_compliance_reporting;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="JTahXnamlg6C21jzx0TI-736">
+          <mxGeometry x="360" y="12" width="40" height="48.75" as="geometry" />
+        </mxCell>
+        <mxCell id="JTahXnamlg6C21jzx0TI-737" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Non-Functional Requirements&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=60;fontColor=#2F5B7C;" vertex="1" parent="1">
+          <mxGeometry x="-1302" y="151" width="496" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="JTahXnamlg6C21jzx0TI-738" value="" style="group;fillColor=default;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1302" y="220" width="420" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="JTahXnamlg6C21jzx0TI-739" value="&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Scheduling Requirements&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Scheduled to run every Sunday at 10 PM, if there is a race that weekend, it should process the data otherwise finish without failure.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Ability to monitor pipelines.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Ability to re-run failed pipelines.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Ability to set up alerts on failures.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#e8edf0;strokeWidth=5;fillColor=#ffffff;fontSize=12;fontColor=#2F5B7C;align=left;verticalAlign=top;spacing=30;" vertex="1" parent="JTahXnamlg6C21jzx0TI-738">
+          <mxGeometry width="420" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="JTahXnamlg6C21jzx0TI-742" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/clock-128.png;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;imageBackground=none;" vertex="1" parent="JTahXnamlg6C21jzx0TI-738">
+          <mxGeometry x="354" y="17" width="51" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="JTahXnamlg6C21jzx0TI-743" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="698" target="698">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JTahXnamlg6C21jzx0TI-744" value="" style="group;fillColor=default;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1302" y="670" width="420" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="JTahXnamlg6C21jzx0TI-745" value="&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Other Requirements&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Ability to deleted individual records (to adhere to GDPR).&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Ability to see history and ability to query the data based on time (time travel).&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Ability to roll-back the data in the data lake to a previous version in case of issues in the current state.&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#e8edf0;strokeWidth=5;fillColor=#ffffff;fontSize=12;fontColor=#2F5B7C;align=left;verticalAlign=top;spacing=30;" vertex="1" parent="JTahXnamlg6C21jzx0TI-744">
+          <mxGeometry width="420" height="450" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
